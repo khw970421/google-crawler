@@ -8,11 +8,11 @@ const {
 } = require('selenium-webdriver')
 const fs = require('fs')
 
-const { keywordQueries } = require('./data/keywordQueries')
+const { frontKeyword, keywordQueries } = require('./data/keywordQueries')
 const { download } = require('./download')
 const { makeDirectory, addFrontString } = require('./utils/func')
 
-const crawlQuery = addFrontString(keywordQueries, '롤 ')
+const crawlQuery = addFrontString(frontKeyword, keywordQueries)
 
 async function example(query) {
   const images = []

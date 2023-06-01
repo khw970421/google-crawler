@@ -6,8 +6,8 @@ const makeDirectory = (directoryNm) => {
   fs.mkdirSync(`${directoryNm}`)
 }
 
-const addFrontString = (queryies, target) =>
-  queryies.map((query) => target.concat(query))
+const addFrontString = (target, queries) =>
+  queries.map((query) => target.concat(query))
 
 exports.makeDirectory = makeDirectory
 exports.addFrontString = addFrontString
