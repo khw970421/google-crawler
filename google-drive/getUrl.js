@@ -1,10 +1,6 @@
 const { google } = require('googleapis')
 require('dotenv').config()
 
-// const credentials = require('./credentials.json')
-
-// 1.
-
 const client = new google.auth.OAuth2(
   process.env.CLIENT_SECRET,
   process.env.CLIENT_ID,
@@ -12,7 +8,6 @@ const client = new google.auth.OAuth2(
 )
 
 const SCOPES = ['https://www.googleapis.com/auth/drive'] // 사용할 API에 따라 권한 범위를 설정합니다.
-let token = ''
 
 const getAuthUrl = () => {
   const authUrl = client.generateAuthUrl({
