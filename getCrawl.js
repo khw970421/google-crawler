@@ -6,25 +6,28 @@ const {
   until,
   Window,
 } = require('selenium-webdriver')
-
+const fs = require('fs')
+const { crawlQueries } = require('./crawlQuery')
 const { download } = require('./check')
 
-const crawlQuery = '롤'
-const images = []
-;(async function example() {
-  let driver = await new Builder().forBrowser(Browser.CHROME).build()
-  try {
-    await driver.get(`https://www.google.com/search?q=${crawlQuery}&tbm=isch`)
-    // await driver.executeScript(
-    //   `window.scrollTo({top:window.innerHeight, left:0})`
-    // )
+const addFrontString = (queryies, target) =>
+  queryies.map((query) => target.concat(query))
 
-    const scrollCount = 5 // 반복할 스크롤 횟수
+const crawlQuery = addFrontString(crawlQueries, '롤 ')
+
+const images = []
+async function example(query) {
+  let driver = await new Builder().forBrowser(Browser.CHROME).build()
+
+  try {
+    await driver.get(`https://www.google.com/search?q=${query}&tbm=isch`)
+
+    const scrollCount = 2 // 반복할 스크롤 횟수
     for (let i = 0; i < scrollCount; i++) {
       await driver.executeScript(
         'window.scrollTo(0, document.body.scrollHeight)'
       )
-      await driver.sleep(100)
+      await driver.sleep(500)
     }
 
     await driver.wait(until.urlContains('http'), 100)
@@ -37,12 +40,17 @@ const images = []
         images.push(image)
       }
     }
-    console.log(images)
 
-    download(images, images, '람머스', function () {
+    download(images, images, query, function () {
       console.log('done')
     })
   } finally {
     await driver.quit()
   }
-})()
+}
+
+fs.rmdirSync('./img', { recursive: true })
+
+crawlQuery.forEach(async (query) => {
+  example(query)
+})

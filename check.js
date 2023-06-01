@@ -2,8 +2,9 @@ var fs = require('fs')
 var request = require('request')
 
 var download = function (urls, fileNames, directoryName, callback) {
+  const imgDirectory = fs.existsSync(`./img`)
   const directory = fs.existsSync(`./img/${directoryName}`)
-  if (!directory) fs.mkdirSync(`img`)
+  if (!imgDirectory) fs.mkdirSync(`img`)
   if (!directory) fs.mkdirSync(`./img/${directoryName}`)
 
   urls.forEach((url, idx) => {
