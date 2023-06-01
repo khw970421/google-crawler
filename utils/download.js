@@ -13,7 +13,7 @@ var download = function (urls, fileNames, directoryName, callback) {
       console.log('content-length:', res.headers['content-length'])
 
       request(url)
-        .pipe(fs.createWriteStream(`./img/${directoryName}/${idx}.png`))
+        .pipe(fs.createWriteStream(`./img/${directoryName}/${idx}.jpg`))
         .on('close', callback)
     })
   })
