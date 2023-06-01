@@ -7,17 +7,16 @@ const {
   Window,
 } = require('selenium-webdriver')
 const fs = require('fs')
-const { crawlQueries } = require('./crawlQuery')
-const { download } = require('./check')
 
-const addFrontString = (queryies, target) =>
-  queryies.map((query) => target.concat(query))
+const { keywordQueries } = require('./data/keywordQueries')
+const { download } = require('./download')
+const { makeDirectory, addFrontString } = require('./utils/func')
 
-const crawlQuery = addFrontString(crawlQueries, '롤 ')
+const crawlQuery = addFrontString(keywordQueries, '롤 ')
 
-const images = []
 async function example(query) {
-  let driver = await new Builder().forBrowser(Browser.CHROME).build()
+  const images = []
+  const driver = await new Builder().forBrowser(Browser.CHROME).build()
 
   try {
     await driver.get(`https://www.google.com/search?q=${query}&tbm=isch`)
@@ -49,7 +48,7 @@ async function example(query) {
   }
 }
 
-fs.rmdirSync('./img', { recursive: true })
+makeDirectory('img')
 
 crawlQuery.forEach(async (query) => {
   example(query)
