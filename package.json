@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "s0": "node getCrawl.js",
-    "s1": "node getUrl.js",
-    "s2": "node uploadFile.js",
+    "crawl": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
