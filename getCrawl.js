@@ -6,15 +6,14 @@ const {
   until,
   Window,
 } = require('selenium-webdriver')
-const fs = require('fs')
 
 const { frontKeyword, keywordQueries } = require('./data/keywordQueries')
-const { download } = require('./download')
+const { download } = require('./utils/download')
 const { makeDirectory, addFrontString } = require('./utils/func')
 
 const crawlQuery = addFrontString(frontKeyword, keywordQueries)
 
-async function example(query) {
+async function getQueryImgs(query) {
   const images = []
   const driver = await new Builder().forBrowser(Browser.CHROME).build()
 
@@ -51,5 +50,5 @@ async function example(query) {
 makeDirectory('img')
 
 crawlQuery.forEach(async (query) => {
-  example(query)
+  getQueryImgs(query)
 })
