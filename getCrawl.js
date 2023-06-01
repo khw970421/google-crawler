@@ -7,6 +7,8 @@ const {
   Window,
 } = require('selenium-webdriver')
 
+const { download } = require('./check')
+
 const crawlQuery = '롤'
 const images = []
 ;(async function example() {
@@ -22,7 +24,7 @@ const images = []
       await driver.executeScript(
         'window.scrollTo(0, document.body.scrollHeight)'
       )
-      await driver.sleep(1000) // 1초 대기
+      await driver.sleep(100)
     }
 
     await driver.wait(until.urlContains('http'), 100)
@@ -31,11 +33,15 @@ const images = []
 
     for (var i = 0; i < resultElements.length; i++) {
       const image = await resultElements[i].getAttribute('src')
-      if (image) {
+      if (image && image.startsWith('https')) {
         images.push(image)
       }
     }
     console.log(images)
+
+    download(images, images, '람머스', function () {
+      console.log('done')
+    })
   } finally {
     await driver.quit()
   }
