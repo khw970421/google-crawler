@@ -8,7 +8,7 @@ async function crawling(query) {
   try {
     await driver.get(`https://www.google.com/search?q=${query}&tbm=isch`)
 
-    const scrollCount = 2 // 반복할 스크롤 횟수
+    const scrollCount = 1 // 반복할 스크롤 횟수
     for (let i = 0; i < scrollCount; i++) {
       await driver.executeScript(
         'window.scrollTo(0, document.body.scrollHeight)'
@@ -28,7 +28,7 @@ async function crawling(query) {
     }
 
     download(images, images, query, function () {
-      console.log('done')
+      // console.log('done')
     })
   } finally {
     await driver.quit()
