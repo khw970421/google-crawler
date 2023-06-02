@@ -6,19 +6,13 @@ var download = function (urls, fileNames, directoryName, callback) {
   if (!directory) fs.mkdirSync(`./img/${directoryName}`)
 
   urls.forEach((url, idx) => {
-    console.log(url)
-
     if (url.startsWith('https')) {
       request.head(url, function (err, res, body) {
-        console.log('content-type:', res.headers['content-type'])
-        console.log('content-length:', res.headers['content-length'])
-
         request(url)
           .pipe(fs.createWriteStream(`./img/${directoryName}/${idx}.jpg`))
           .on('close', callback)
       })
     } else {
-      console.log('else')
       const imageParts = url.split(';base64,')
       const mimeType = imageParts[0].split(':')[1]
       const imageData = imageParts[1]
@@ -33,9 +27,9 @@ var download = function (urls, fileNames, directoryName, callback) {
         { encoding: 'base64' },
         (err) => {
           if (err) {
-            console.error('이미지 저장 실패:', err)
+            // console.error('이미지 저장 실패:', err)
           } else {
-            console.log('이미지 저장 성공!')
+            // console.log('이미지 저장 성공!')
           }
         }
       )
