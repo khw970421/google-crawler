@@ -1,12 +1,12 @@
 const { Builder, Browser, By, Key, until } = require('selenium-webdriver')
 const { download } = require('./download')
 
-async function crawling(query) {
+async function crawling() {
   const images = []
   const driver = await new Builder().forBrowser(Browser.CHROME).build()
 
   try {
-    await driver.get(`https://www.google.com/search?q=${query}&tbm=isch`)
+    await driver.get(`https://www.leagueoflegends.com/ko-kr/champions/`)
 
     const scrollCount = 1 // 반복할 스크롤 횟수
     for (let i = 0; i < scrollCount; i++) {
@@ -18,7 +18,7 @@ async function crawling(query) {
 
     await driver.wait(until.urlContains('http'), 100)
 
-    let resultElements = await driver.findElements(By.className('rg_i'))
+    let resultElements = await driver.findElements(By.className('cipsic'))
 
     for (var i = 0; i < resultElements.length; i++) {
       const image = await resultElements[i].getAttribute('src')
@@ -27,7 +27,7 @@ async function crawling(query) {
       }
     }
 
-    download(images, images, query, function () {
+    download(images, images, function () {
       // console.log('done')
     })
   } finally {

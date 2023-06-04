@@ -1,17 +1,19 @@
 var fs = require('fs')
 var request = require('request')
+var k = require('../data/keywordQueries')
 
-var download = function (urls, fileNames, directoryName, callback) {
-  const directory = fs.existsSync(`./img/${directoryName}`)
-  if (!directory) fs.mkdirSync(`./img/${directoryName}`)
-
+var download = function (urls, fileNames, callback) {
   urls.forEach((url, idx) => {
     if (url.startsWith('https')) {
-      request.head(url, function (err, res, body) {
-        request(url)
-          .pipe(fs.createWriteStream(`./img/${directoryName}/${idx}.jpg`))
-          .on('close', callback)
-      })
+      if (idx >= 6) {
+        request.head(url, function (err, res, body) {
+          request(url)
+            .pipe(
+              fs.createWriteStream(`./img/${k.keywordQueries[idx - 6]}.jpg`)
+            )
+            .on('close', callback)
+        })
+      }
     } else {
       const imageParts = url.split(';base64,')
       const mimeType = imageParts[0].split(':')[1]
