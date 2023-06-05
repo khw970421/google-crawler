@@ -10,6 +10,7 @@ const argsIdx = Number(process.argv[2]) * searchLength
 
 makeDirectory(`${directory}`, false)
 
+// 다수의 검색결과를 각각 크롤링 할 때
 crawlQuery.slice(argsIdx, argsIdx + searchLength).forEach((query) => {
   makeDirectory(`${directory}/${query}`, false)
 
@@ -25,3 +26,6 @@ crawlQuery.slice(argsIdx, argsIdx + searchLength).forEach((query) => {
 
   crawling(fs, search)
 })
+
+// 실행 명령어
+// node crawl.js {num}
