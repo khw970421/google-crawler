@@ -27,7 +27,7 @@ async function crawling(fs, search) {
         images.push(image)
       }
     }
-
+    console.log(fs.dir, fs.fileNm)
     download(images, fs.dir, fs.fileNm, function () {
       // console.log('done')
     })
