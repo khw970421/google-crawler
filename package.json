@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "crawl": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lol": "node lolCrawl.js"
   },
   "author": "",
   "license": "ISC",
