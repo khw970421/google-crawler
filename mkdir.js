@@ -1,4 +1,4 @@
 const { makeDirectory } = require('./utils/func')
 
-if (process.argv[2]) makeDirectory(`${process.argv[2]}`)
-else makeDirectory(`img`)
+const dir = process.argv[2] || 'img'
+makeDirectory(dir)
