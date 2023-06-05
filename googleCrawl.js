@@ -4,9 +4,10 @@ const { addFrontString, makeDirectory } = require('./utils/func')
 
 const crawlQuery = addFrontString(frontKeyword, keywordQueries)
 
-const argsIdx = Number(process.argv[2]) * 2
+const searchLength = 2
+const argsIdx = Number(process.argv[2]) * searchLength
 
-crawlQuery.slice(argsIdx, argsIdx + 2).forEach((query) => {
+crawlQuery.slice(argsIdx, argsIdx + searchLength).forEach((query) => {
   makeDirectory(`img/${query}`)
 
   const fs = {

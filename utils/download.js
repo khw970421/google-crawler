@@ -39,15 +39,4 @@ var download = function (urls, targetFolder, imgNm, callback) {
   })
 }
 
-// download(
-//   [
-//     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSomBufAxo_YswoUKJUl69YEhZbBUYfoRD9FQ&usqp=CAU',
-//   ],
-//   ['google1.png'],
-//   '람머스',
-//   function () {
-//     console.log('done')
-//   }
-// )
-
 exports.download = download

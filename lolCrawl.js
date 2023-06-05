@@ -3,7 +3,7 @@ const { crawling } = require('./utils/crawling')
 const { makeDirectory } = require('./utils/func')
 
 const fs = {
-  dir: process.argv[2] || 'img',
+  dir: 'img',
   fileNm: keywordQueries || 'img',
 }
 
