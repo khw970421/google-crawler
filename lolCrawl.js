@@ -1,9 +1,16 @@
-const { frontKeyword, keywordQueries } = require('./data/keywordQueries')
+const { keywordQueries } = require('./data/keywordQueries')
 const { crawling } = require('./utils/crawling')
 const { makeDirectory } = require('./utils/func')
 
-const crawlUrl = `https://www.leagueoflegends.com/ko-kr/champions/`
-const directory = process.argv[2] || 'img'
-const imageNm = keywordQueries || 'img'
-makeDirectory(directory)
-crawling(directory, crawlUrl, imageNm)
+const fs = {
+  dir: process.argv[2] || 'img',
+  fileNm: keywordQueries || 'img',
+}
+
+const search = {
+  url: `https://www.leagueoflegends.com/ko-kr/champions/`,
+  css: `.style__ImageContainer-n3ovyt-1 .cipsic`,
+}
+
+makeDirectory(fs.dir)
+crawling(fs, search)

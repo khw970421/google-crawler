@@ -1,12 +1,12 @@
-const { Builder, Browser, By, Key, until } = require('selenium-webdriver')
+const { Builder, Browser, By, until } = require('selenium-webdriver')
 const { download } = require('./download')
 
-async function crawling(targetFolder, crawlUrl, imgNm) {
+async function crawling(fs, search) {
   const images = []
   const driver = await new Builder().forBrowser(Browser.CHROME).build()
 
   try {
-    await driver.get(`${crawlUrl}`)
+    await driver.get(search.url)
 
     const scrollCount = 1 // 반복할 스크롤 횟수
     for (let i = 0; i < scrollCount; i++) {
@@ -18,9 +18,7 @@ async function crawling(targetFolder, crawlUrl, imgNm) {
 
     await driver.wait(until.urlContains('http'), 100)
 
-    let resultElements = await driver.findElements(
-      By.css('.style__ImageContainer-n3ovyt-1 .cipsic')
-    )
+    let resultElements = await driver.findElements(By.css(search.css))
 
     for (var i = 0; i < resultElements.length; i++) {
       const image = await resultElements[i].getAttribute('src')
@@ -30,15 +28,9 @@ async function crawling(targetFolder, crawlUrl, imgNm) {
       }
     }
 
-    download(
-      images,
-      images,
-      function () {
-        // console.log('done')
-      },
-      targetFolder,
-      imgNm
-    )
+    download(images, fs.dir, fs.fileNm, function () {
+      // console.log('done')
+    })
   } finally {
     await driver.quit()
   }
