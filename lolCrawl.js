@@ -4,6 +4,6 @@ const { makeDirectory } = require('./utils/func')
 
 const crawlUrl = `https://www.leagueoflegends.com/ko-kr/champions/`
 const directory = process.argv[2] || 'img'
-
+const imageNm = keywordQueries || 'img'
 makeDirectory(directory)
-crawling(directory, crawlUrl)
+crawling(directory, crawlUrl, imageNm)

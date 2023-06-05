@@ -2,17 +2,19 @@ var fs = require('fs')
 var request = require('request')
 var k = require('../data/keywordQueries')
 
-var download = function (urls, fileNames, callback, targetFolder) {
+var download = function (urls, fileNames, callback, targetFolder, imgNm) {
   urls.forEach((url, idx) => {
     if (url.startsWith('https')) {
       request.head(url, function (err, res, body) {
-        request(url)
-          .pipe(
-            fs.createWriteStream(
-              `./${targetFolder}/${k.keywordQueries[idx]}.jpg`
-            )
-          )
-          .on('close', callback)
+        if (imgNm instanceof Array) {
+          request(url)
+            .pipe(fs.createWriteStream(`./${targetFolder}/${imgNm[idx]}.jpg`))
+            .on('close', callback)
+        } else {
+          request(url)
+            .pipe(fs.createWriteStream(`./${targetFolder}/${imgNm}${idx}.jpg`))
+            .on('close', callback)
+        }
       })
     } else {
       const imageParts = url.split(';base64,')
@@ -22,19 +24,35 @@ var download = function (urls, fileNames, callback, targetFolder) {
       // Base64 디코딩
       const decodedImage = Buffer.from(imageData, 'base64')
 
-      // 이미지 파일로 저장
-      fs.writeFile(
-        `./img/${directoryName}/${idx}.jpg`,
-        decodedImage,
-        { encoding: 'base64' },
-        (err) => {
-          if (err) {
-            // console.error('이미지 저장 실패:', err)
-          } else {
-            // console.log('이미지 저장 성공!')
+      if (imgNm instanceof Array) {
+        // 이미지 파일로 저장
+        fs.writeFile(
+          `./${targetFolder}/${imgNm[idx]}.jpg`,
+          decodedImage,
+          { encoding: 'base64' },
+          (err) => {
+            if (err) {
+              // console.error('이미지 저장 실패:', err)
+            } else {
+              // console.log('이미지 저장 성공!')
+            }
           }
-        }
-      )
+        )
+      } else {
+        // 이미지 파일로 저장
+        fs.writeFile(
+          `./${targetFolder}/${imgNm}${idx}.jpg`,
+          decodedImage,
+          { encoding: 'base64' },
+          (err) => {
+            if (err) {
+              // console.error('이미지 저장 실패:', err)
+            } else {
+              // console.log('이미지 저장 성공!')
+            }
+          }
+        )
+      }
     }
   })
 }

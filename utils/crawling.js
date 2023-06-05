@@ -1,7 +1,7 @@
 const { Builder, Browser, By, Key, until } = require('selenium-webdriver')
 const { download } = require('./download')
 
-async function crawling(targetFolder, crawlUrl) {
+async function crawling(targetFolder, crawlUrl, imgNm) {
   const images = []
   const driver = await new Builder().forBrowser(Browser.CHROME).build()
 
@@ -36,7 +36,8 @@ async function crawling(targetFolder, crawlUrl) {
       function () {
         // console.log('done')
       },
-      targetFolder
+      targetFolder,
+      imgNm
     )
   } finally {
     await driver.quit()
