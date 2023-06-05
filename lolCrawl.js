@@ -12,5 +12,5 @@ const search = {
   css: `.style__ImageContainer-n3ovyt-1 .cipsic`,
 }
 
-makeDirectory(fs.dir)
+makeDirectory(fs.dir, true)
 crawling(fs, search)
