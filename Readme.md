@@ -4,20 +4,26 @@
 
 `selenium-webdriver : "^4.9.2"`
 
-## 한번의 크롤링 진행
-`node lolCrawl.js`
+## 1. 롤 챔피언 업데이트시 JSON 파일 업데이트
 
-* 한개의 사이트에서 특정 조건을 가진 (css) 사진의 src를 모아 download
+`yarn lol-json`
 
-<img width="713" alt="화면 캡처 2023-06-05 141207" src="https://github.com/khw970421/google-crawler/assets/59253551/3d7ae5ab-608c-4f2b-adce-b709f8c8f525">
+- 롤 API를 활용해 필요한 key값(영어로된 챔피언 이름)에 대한 데이터 json으로 저장
 
-## 여러개의 크롤링 진행
+## 2. 한번의 크롤링 진행
+
+`yarn lol-crawl`
+
+- 한개의 사이트에서 특정 조건을 가진 (css) 사진의 src를 모아 download
+
+## 3. 여러개의 크롤링 진행
+
 `node crawl.js {num}`
 
-* 각각을 실행하는데 있어서 크롤링 환경을 무수히 많이 만들경우 정상적으로 동작하지 않았고  
+- 각각을 실행하는데 있어서 크롤링 환경을 무수히 많이 만들경우 정상적으로 동작하지 않았고  
   이를 적당한 크기로 나눠서 반복적으로 실행하는데 매번 변수값을 바꾸는 것이 번거로워  
   `process.argv`의 2번째 매개변수를 바꾸면서 실행하며 크롤링을 진행
-  
+
 <img width="818" alt="화면 캡처 2023-06-05 141338" src="https://github.com/khw970421/google-crawler/assets/59253551/b9ad56e9-b152-4f67-9a3d-7a15640e7b98">
 
 # 2️⃣ google-drive
@@ -39,6 +45,6 @@
 
 - https와 data로 된 url을 각각 다운로드 될 수 있게 처리
 - imgNm이 배열일 때는 해당 배열값을 이름으로 저장  
-(가렌.jpg, 애쉬.jpg ... )
+  (가렌.jpg, 애쉬.jpg ... )
 - imgNm이 배열이 아닐때는 주어진 idx 이름으로 저장  
-(img1.jpg, img2.jpg, img3.jpg...)
+  (img1.jpg, img2.jpg, img3.jpg...)
