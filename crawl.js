@@ -1,31 +1,34 @@
-const { frontKeyword, keywordQueries } = require('./data/keywordQueries')
 const { crawling } = require('./utils/crawling')
-const { addFrontString, makeDirectory } = require('./utils/func')
+const { makeDirectory } = require('./utils/func')
 
-const crawlQuery = addFrontString(frontKeyword, keywordQueries)
-
-const searchLength = 2
-const directory = 'img'
+const searchLength = 8
 const argsIdx = Number(process.argv[2]) * searchLength
 
+const directory = 'img'
 makeDirectory(`${directory}`, false)
 
-// 다수의 검색결과를 각각 크롤링 할 때
-crawlQuery.slice(argsIdx, argsIdx + searchLength).forEach((query) => {
-  makeDirectory(`${directory}/${query}`, false)
+const champions_en = require('./data/champions_en.json')
+const champions_ko = require('./data/champions_ko.json')
+const championsEnNms = Object.keys(champions_en)
+const championsKoNms = Object.values(champions_ko).map(
+  ({ name }) => `롤 ${name}`
+)
+
+const searchChampions = championsEnNms.slice(argsIdx, argsIdx + searchLength)
+
+searchChampions.forEach((EnNm, idx) => {
+  const championsKoNm = championsKoNms[argsIdx + idx]
+  makeDirectory(`${directory}/${EnNm}`, false)
 
   const fs = {
-    dir: `./${directory}/${query}`,
+    dir: `./${directory}/${EnNm}`,
     fileNm: `${directory}`,
   }
 
   const search = {
-    url: `https://www.google.com/search?q=${query}&tbm=isch`,
+    url: `https://www.google.com/search?q=${championsKoNm}&tbm=isch`,
     css: `.rg_i`,
   }
 
   crawling(fs, search)
 })
-
-// 실행 명령어
-// node crawl.js {num}
