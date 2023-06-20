@@ -10,11 +10,17 @@
 
 - 롤 API를 활용해 필요한 key값(영어로된 챔피언 이름)에 대한 데이터 json으로 저장
 
+<img width="818" alt="image" src="https://github.com/khw970421/google-crawler/assets/59253551/95f0da0f-09a2-4c73-8dae-a0a885b8042e">
+
+
 ## 2. 한번의 크롤링 진행
 
 `yarn lol-crawl`
 
 - 한개의 사이트에서 특정 조건을 가진 (css) 사진의 src를 모아 download
+
+<img width="195" alt="image" src="https://github.com/khw970421/google-crawler/assets/59253551/74f70a7d-0858-4ed1-acfe-95ee47e2f7a5">
+
 
 ## 3. 여러개의 크롤링 진행
 
