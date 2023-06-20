@@ -1,980 +1,980 @@
 {
-    "Aatrox": {
-        "id": "Aatrox",
-        "name": "아트록스",
-        "title": "다르킨의 검",
-        "image": "Aatrox.png"
-    },
-    "Ahri": {
-        "id": "Ahri",
-        "name": "아리",
-        "title": "구미호",
-        "image": "Ahri.png"
-    },
-    "Akali": {
-        "id": "Akali",
-        "name": "아칼리",
-        "title": "섬기는 이 없는 암살자",
-        "image": "Akali.png"
-    },
-    "Akshan": {
-        "id": "Akshan",
-        "name": "아크샨",
-        "title": "떠도는 감시자",
-        "image": "Akshan.png"
-    },
-    "Alistar": {
-        "id": "Alistar",
-        "name": "알리스타",
-        "title": "미노타우로스",
-        "image": "Alistar.png"
-    },
-    "Amumu": {
-        "id": "Amumu",
-        "name": "아무무",
-        "title": "슬픈 미라",
-        "image": "Amumu.png"
-    },
-    "Anivia": {
-        "id": "Anivia",
-        "name": "애니비아",
-        "title": "얼음불사조",
-        "image": "Anivia.png"
-    },
-    "Annie": {
-        "id": "Annie",
-        "name": "애니",
-        "title": "어둠의 아이",
-        "image": "Annie.png"
-    },
-    "Aphelios": {
-        "id": "Aphelios",
-        "name": "아펠리오스",
-        "title": "신념의 무기",
-        "image": "Aphelios.png"
-    },
-    "Ashe": {
-        "id": "Ashe",
-        "name": "애쉬",
-        "title": "서리 궁수",
-        "image": "Ashe.png"
-    },
-    "AurelionSol": {
-        "id": "AurelionSol",
-        "name": "아우렐리온 솔",
-        "title": "별의 창조자",
-        "image": "AurelionSol.png"
-    },
-    "Azir": {
-        "id": "Azir",
-        "name": "아지르",
-        "title": "사막의 황제",
-        "image": "Azir.png"
-    },
-    "Bard": {
-        "id": "Bard",
-        "name": "바드",
-        "title": "영겁의 수호자",
-        "image": "Bard.png"
-    },
-    "Belveth": {
-        "id": "Belveth",
-        "name": "벨베스",
-        "title": "공허의 여제",
-        "image": "Belveth.png"
-    },
-    "Blitzcrank": {
-        "id": "Blitzcrank",
-        "name": "블리츠크랭크",
-        "title": "거대 증기 골렘",
-        "image": "Blitzcrank.png"
-    },
-    "Brand": {
-        "id": "Brand",
-        "name": "브랜드",
-        "title": "타오르는 복수",
-        "image": "Brand.png"
-    },
-    "Braum": {
-        "id": "Braum",
-        "name": "브라움",
-        "title": "프렐요드의 심장",
-        "image": "Braum.png"
-    },
-    "Caitlyn": {
-        "id": "Caitlyn",
-        "name": "케이틀린",
-        "title": "필트오버의 보안관",
-        "image": "Caitlyn.png"
-    },
-    "Camille": {
-        "id": "Camille",
-        "name": "카밀",
-        "title": "강철의 그림자",
-        "image": "Camille.png"
-    },
-    "Cassiopeia": {
-        "id": "Cassiopeia",
-        "name": "카시오페아",
-        "title": "독사의 포옹",
-        "image": "Cassiopeia.png"
-    },
-    "Chogath": {
-        "id": "Chogath",
-        "name": "초가스",
-        "title": "공허의 공포",
-        "image": "Chogath.png"
-    },
-    "Corki": {
-        "id": "Corki",
-        "name": "코르키",
-        "title": "대담한 폭격수",
-        "image": "Corki.png"
-    },
-    "Darius": {
-        "id": "Darius",
-        "name": "다리우스",
-        "title": "녹서스의 실력자",
-        "image": "Darius.png"
-    },
-    "Diana": {
-        "id": "Diana",
-        "name": "다이애나",
-        "title": "차가운 달의 분노",
-        "image": "Diana.png"
-    },
-    "Draven": {
-        "id": "Draven",
-        "name": "드레이븐",
-        "title": "화려한 처형자",
-        "image": "Draven.png"
-    },
-    "DrMundo": {
-        "id": "DrMundo",
-        "name": "문도 박사",
-        "title": "자운의 광인",
-        "image": "DrMundo.png"
-    },
-    "Ekko": {
-        "id": "Ekko",
-        "name": "에코",
-        "title": "시간을 달리는 소년",
-        "image": "Ekko.png"
-    },
-    "Elise": {
-        "id": "Elise",
-        "name": "엘리스",
-        "title": "거미 여왕",
-        "image": "Elise.png"
-    },
-    "Evelynn": {
-        "id": "Evelynn",
-        "name": "이블린",
-        "title": "고통스런 포옹",
-        "image": "Evelynn.png"
-    },
-    "Ezreal": {
-        "id": "Ezreal",
-        "name": "이즈리얼",
-        "title": "무모한 탐험가",
-        "image": "Ezreal.png"
-    },
-    "Fiddlesticks": {
-        "id": "Fiddlesticks",
-        "name": "피들스틱",
-        "title": "오래된 공포",
-        "image": "Fiddlesticks.png"
-    },
-    "Fiora": {
-        "id": "Fiora",
-        "name": "피오라",
-        "title": "결투의 대가",
-        "image": "Fiora.png"
-    },
-    "Fizz": {
-        "id": "Fizz",
-        "name": "피즈",
-        "title": "대양의 말썽꾸러기",
-        "image": "Fizz.png"
-    },
-    "Galio": {
-        "id": "Galio",
-        "name": "갈리오",
-        "title": "위대한 석상",
-        "image": "Galio.png"
-    },
-    "Gangplank": {
-        "id": "Gangplank",
-        "name": "갱플랭크",
-        "title": "바다의 무법자",
-        "image": "Gangplank.png"
-    },
-    "Garen": {
-        "id": "Garen",
-        "name": "가렌",
-        "title": "데마시아의 힘",
-        "image": "Garen.png"
-    },
-    "Gnar": {
-        "id": "Gnar",
-        "name": "나르",
-        "title": "잃어버린 고리",
-        "image": "Gnar.png"
-    },
-    "Gragas": {
-        "id": "Gragas",
-        "name": "그라가스",
-        "title": "술취한 난동꾼",
-        "image": "Gragas.png"
-    },
-    "Graves": {
-        "id": "Graves",
-        "name": "그레이브즈",
-        "title": "무법자",
-        "image": "Graves.png"
-    },
-    "Gwen": {
-        "id": "Gwen",
-        "name": "그웬",
-        "title": "신성한 재봉사",
-        "image": "Gwen.png"
-    },
-    "Hecarim": {
-        "id": "Hecarim",
-        "name": "헤카림",
-        "title": "전쟁의 전조",
-        "image": "Hecarim.png"
-    },
-    "Heimerdinger": {
-        "id": "Heimerdinger",
-        "name": "하이머딩거",
-        "title": "위대한 발명가",
-        "image": "Heimerdinger.png"
-    },
-    "Illaoi": {
-        "id": "Illaoi",
-        "name": "일라오이",
-        "title": "크라켄의 여사제",
-        "image": "Illaoi.png"
-    },
-    "Irelia": {
-        "id": "Irelia",
-        "name": "이렐리아",
-        "title": "칼날 무희",
-        "image": "Irelia.png"
-    },
-    "Ivern": {
-        "id": "Ivern",
-        "name": "아이번",
-        "title": "자연의 아버지",
-        "image": "Ivern.png"
-    },
-    "Janna": {
-        "id": "Janna",
-        "name": "잔나",
-        "title": "폭풍의 분노",
-        "image": "Janna.png"
-    },
-    "JarvanIV": {
-        "id": "JarvanIV",
-        "name": "자르반 4세",
-        "title": "데마시아의 귀감",
-        "image": "JarvanIV.png"
-    },
-    "Jax": {
-        "id": "Jax",
-        "name": "잭스",
-        "title": "무기의 달인",
-        "image": "Jax.png"
-    },
-    "Jayce": {
-        "id": "Jayce",
-        "name": "제이스",
-        "title": "미래의 수호자",
-        "image": "Jayce.png"
-    },
-    "Jhin": {
-        "id": "Jhin",
-        "name": "진",
-        "title": "잔혹극의 거장",
-        "image": "Jhin.png"
-    },
-    "Jinx": {
-        "id": "Jinx",
-        "name": "징크스",
-        "title": "난폭한 말괄량이",
-        "image": "Jinx.png"
-    },
-    "Kaisa": {
-        "id": "Kaisa",
-        "name": "카이사",
-        "title": "공허의 딸",
-        "image": "Kaisa.png"
-    },
-    "Kalista": {
-        "id": "Kalista",
-        "name": "칼리스타",
-        "title": "복수의 화신",
-        "image": "Kalista.png"
-    },
-    "Karma": {
-        "id": "Karma",
-        "name": "카르마",
-        "title": "깨우친 자",
-        "image": "Karma.png"
-    },
-    "Karthus": {
-        "id": "Karthus",
-        "name": "카서스",
-        "title": "죽음을 노래하는 자",
-        "image": "Karthus.png"
-    },
-    "Kassadin": {
-        "id": "Kassadin",
-        "name": "카사딘",
-        "title": "공허의 방랑자",
-        "image": "Kassadin.png"
-    },
-    "Katarina": {
-        "id": "Katarina",
-        "name": "카타리나",
-        "title": "사악한 칼날",
-        "image": "Katarina.png"
-    },
-    "Kayle": {
-        "id": "Kayle",
-        "name": "케일",
-        "title": "정의로운 자",
-        "image": "Kayle.png"
-    },
-    "Kayn": {
-        "id": "Kayn",
-        "name": "케인",
-        "title": "그림자 사신",
-        "image": "Kayn.png"
-    },
-    "Kennen": {
-        "id": "Kennen",
-        "name": "케넨",
-        "title": "폭풍의 심장",
-        "image": "Kennen.png"
-    },
-    "Khazix": {
-        "id": "Khazix",
-        "name": "카직스",
-        "title": "공허의 약탈자",
-        "image": "Khazix.png"
-    },
-    "Kindred": {
-        "id": "Kindred",
-        "name": "킨드레드",
-        "title": "영겁의 사냥꾼",
-        "image": "Kindred.png"
-    },
-    "Kled": {
-        "id": "Kled",
-        "name": "클레드",
-        "title": "망나니 기사",
-        "image": "Kled.png"
-    },
-    "KogMaw": {
-        "id": "KogMaw",
-        "name": "코그모",
-        "title": "심연의 아귀",
-        "image": "KogMaw.png"
-    },
-    "KSante": {
-        "id": "KSante",
-        "name": "크산테",
-        "title": "나주마의 긍지",
-        "image": "KSante.png"
-    },
-    "Leblanc": {
-        "id": "Leblanc",
-        "name": "르블랑",
-        "title": "환술사",
-        "image": "Leblanc.png"
-    },
-    "LeeSin": {
-        "id": "LeeSin",
-        "name": "리 신",
-        "title": "눈먼 수도승",
-        "image": "LeeSin.png"
-    },
-    "Leona": {
-        "id": "Leona",
-        "name": "레오나",
-        "title": "여명의 빛",
-        "image": "Leona.png"
-    },
-    "Lillia": {
-        "id": "Lillia",
-        "name": "릴리아",
-        "title": "수줍은 꽃",
-        "image": "Lillia.png"
-    },
-    "Lissandra": {
-        "id": "Lissandra",
-        "name": "리산드라",
-        "title": "얼음 마녀",
-        "image": "Lissandra.png"
-    },
-    "Lucian": {
-        "id": "Lucian",
-        "name": "루시안",
-        "title": "정화의 사도",
-        "image": "Lucian.png"
-    },
-    "Lulu": {
-        "id": "Lulu",
-        "name": "룰루",
-        "title": "요정 마법사",
-        "image": "Lulu.png"
-    },
-    "Lux": {
-        "id": "Lux",
-        "name": "럭스",
-        "title": "광명의 소녀",
-        "image": "Lux.png"
-    },
-    "Malphite": {
-        "id": "Malphite",
-        "name": "말파이트",
-        "title": "거석의 파편",
-        "image": "Malphite.png"
-    },
-    "Malzahar": {
-        "id": "Malzahar",
-        "name": "말자하",
-        "title": "공허의 예언자",
-        "image": "Malzahar.png"
-    },
-    "Maokai": {
-        "id": "Maokai",
-        "name": "마오카이",
-        "title": "뒤틀린 나무 정령",
-        "image": "Maokai.png"
-    },
-    "MasterYi": {
-        "id": "MasterYi",
-        "name": "마스터 이",
-        "title": "우주 검사",
-        "image": "MasterYi.png"
-    },
-    "Milio": {
-        "id": "Milio",
-        "name": "밀리오",
-        "title": "온화한 불꽃",
-        "image": "Milio.png"
-    },
-    "MissFortune": {
-        "id": "MissFortune",
-        "name": "미스 포츈",
-        "title": "현상금 사냥꾼",
-        "image": "MissFortune.png"
-    },
-    "MonkeyKing": {
-        "id": "MonkeyKing",
-        "name": "오공",
-        "title": "원숭이 왕",
-        "image": "MonkeyKing.png"
-    },
-    "Mordekaiser": {
-        "id": "Mordekaiser",
-        "name": "모데카이저",
-        "title": "강철의 망령",
-        "image": "Mordekaiser.png"
-    },
-    "Morgana": {
-        "id": "Morgana",
-        "name": "모르가나",
-        "title": "타락한 자",
-        "image": "Morgana.png"
-    },
-    "Nami": {
-        "id": "Nami",
-        "name": "나미",
-        "title": "파도 소환사",
-        "image": "Nami.png"
-    },
-    "Nasus": {
-        "id": "Nasus",
-        "name": "나서스",
-        "title": "사막의 관리자",
-        "image": "Nasus.png"
-    },
-    "Nautilus": {
-        "id": "Nautilus",
-        "name": "노틸러스",
-        "title": "심해의 타이탄",
-        "image": "Nautilus.png"
-    },
-    "Neeko": {
-        "id": "Neeko",
-        "name": "니코",
-        "title": "알쏭달쏭 카멜레온",
-        "image": "Neeko.png"
-    },
-    "Nidalee": {
-        "id": "Nidalee",
-        "name": "니달리",
-        "title": "야성의 사냥꾼",
-        "image": "Nidalee.png"
-    },
-    "Nilah": {
-        "id": "Nilah",
-        "name": "닐라",
-        "title": "해방된 기쁨",
-        "image": "Nilah.png"
-    },
-    "Nocturne": {
-        "id": "Nocturne",
-        "name": "녹턴",
-        "title": "영원한 악몽",
-        "image": "Nocturne.png"
-    },
-    "Nunu": {
-        "id": "Nunu",
-        "name": "누누와 윌럼프",
-        "title": "소년과 설인",
-        "image": "Nunu.png"
-    },
-    "Olaf": {
-        "id": "Olaf",
-        "name": "올라프",
-        "title": "광전사",
-        "image": "Olaf.png"
-    },
-    "Orianna": {
-        "id": "Orianna",
-        "name": "오리아나",
-        "title": "시계태엽 소녀",
-        "image": "Orianna.png"
-    },
-    "Ornn": {
-        "id": "Ornn",
-        "name": "오른",
-        "title": "거산의 화염",
-        "image": "Ornn.png"
-    },
-    "Pantheon": {
-        "id": "Pantheon",
-        "name": "판테온",
-        "title": "불굴의 창",
-        "image": "Pantheon.png"
-    },
-    "Poppy": {
-        "id": "Poppy",
-        "name": "뽀삐",
-        "title": "망치의 수호자",
-        "image": "Poppy.png"
-    },
-    "Pyke": {
-        "id": "Pyke",
-        "name": "파이크",
-        "title": "핏빛 항구의 학살자",
-        "image": "Pyke.png"
-    },
-    "Qiyana": {
-        "id": "Qiyana",
-        "name": "키아나",
-        "title": "원소의 여왕",
-        "image": "Qiyana.png"
-    },
-    "Quinn": {
-        "id": "Quinn",
-        "name": "퀸",
-        "title": "데마시아의 날개",
-        "image": "Quinn.png"
-    },
-    "Rakan": {
-        "id": "Rakan",
-        "name": "라칸",
-        "title": "매혹하는 자",
-        "image": "Rakan.png"
-    },
-    "Rammus": {
-        "id": "Rammus",
-        "name": "람머스",
-        "title": "중무장 아르마딜로",
-        "image": "Rammus.png"
-    },
-    "RekSai": {
-        "id": "RekSai",
-        "name": "렉사이",
-        "title": "공허의 복병",
-        "image": "RekSai.png"
-    },
-    "Rell": {
-        "id": "Rell",
-        "name": "렐",
-        "title": "철의 여인",
-        "image": "Rell.png"
-    },
-    "Renata": {
-        "id": "Renata",
-        "name": "레나타 글라스크",
-        "title": "화공 남작",
-        "image": "Renata.png"
-    },
-    "Renekton": {
-        "id": "Renekton",
-        "name": "레넥톤",
-        "title": "사막의 도살자",
-        "image": "Renekton.png"
-    },
-    "Rengar": {
-        "id": "Rengar",
-        "name": "렝가",
-        "title": "추적하는 사자",
-        "image": "Rengar.png"
-    },
-    "Riven": {
-        "id": "Riven",
-        "name": "리븐",
-        "title": "추방자",
-        "image": "Riven.png"
-    },
-    "Rumble": {
-        "id": "Rumble",
-        "name": "럼블",
-        "title": "기계 악동",
-        "image": "Rumble.png"
-    },
-    "Ryze": {
-        "id": "Ryze",
-        "name": "라이즈",
-        "title": "룬 마법사",
-        "image": "Ryze.png"
-    },
-    "Samira": {
-        "id": "Samira",
-        "name": "사미라",
-        "title": "사막의 장미",
-        "image": "Samira.png"
-    },
-    "Sejuani": {
-        "id": "Sejuani",
-        "name": "세주아니",
-        "title": "혹한의 분노",
-        "image": "Sejuani.png"
-    },
-    "Senna": {
-        "id": "Senna",
-        "name": "세나",
-        "title": "구원자",
-        "image": "Senna.png"
-    },
-    "Seraphine": {
-        "id": "Seraphine",
-        "name": "세라핀",
-        "title": "노래하는 별",
-        "image": "Seraphine.png"
-    },
-    "Sett": {
-        "id": "Sett",
-        "name": "세트",
-        "title": "우두머리",
-        "image": "Sett.png"
-    },
-    "Shaco": {
-        "id": "Shaco",
-        "name": "샤코",
-        "title": "악마 어릿광대",
-        "image": "Shaco.png"
-    },
-    "Shen": {
-        "id": "Shen",
-        "name": "쉔",
-        "title": "황혼의 눈",
-        "image": "Shen.png"
-    },
-    "Shyvana": {
-        "id": "Shyvana",
-        "name": "쉬바나",
-        "title": "하프 드래곤",
-        "image": "Shyvana.png"
-    },
-    "Singed": {
-        "id": "Singed",
-        "name": "신지드",
-        "title": "미친 화학자",
-        "image": "Singed.png"
-    },
-    "Sion": {
-        "id": "Sion",
-        "name": "사이온",
-        "title": "언데드 학살병기",
-        "image": "Sion.png"
-    },
-    "Sivir": {
-        "id": "Sivir",
-        "name": "시비르",
-        "title": "전장의 여제",
-        "image": "Sivir.png"
-    },
-    "Skarner": {
-        "id": "Skarner",
-        "name": "스카너",
-        "title": "수정 선봉장",
-        "image": "Skarner.png"
-    },
-    "Sona": {
-        "id": "Sona",
-        "name": "소나",
-        "title": "현의 명인",
-        "image": "Sona.png"
-    },
-    "Soraka": {
-        "id": "Soraka",
-        "name": "소라카",
-        "title": "별의 아이",
-        "image": "Soraka.png"
-    },
-    "Swain": {
-        "id": "Swain",
-        "name": "스웨인",
-        "title": "녹서스 대장군",
-        "image": "Swain.png"
-    },
-    "Sylas": {
-        "id": "Sylas",
-        "name": "사일러스",
-        "title": "해방된 자",
-        "image": "Sylas.png"
-    },
-    "Syndra": {
-        "id": "Syndra",
-        "name": "신드라",
-        "title": "어둠의 여제",
-        "image": "Syndra.png"
-    },
-    "TahmKench": {
-        "id": "TahmKench",
-        "name": "탐 켄치",
-        "title": "강의 폭군",
-        "image": "TahmKench.png"
-    },
-    "Taliyah": {
-        "id": "Taliyah",
-        "name": "탈리야",
-        "title": "바위술사",
-        "image": "Taliyah.png"
-    },
-    "Talon": {
-        "id": "Talon",
-        "name": "탈론",
-        "title": "검의 그림자",
-        "image": "Talon.png"
-    },
-    "Taric": {
-        "id": "Taric",
-        "name": "타릭",
-        "title": "발로란의 방패",
-        "image": "Taric.png"
-    },
-    "Teemo": {
-        "id": "Teemo",
-        "name": "티모",
-        "title": "날쌘 정찰병",
-        "image": "Teemo.png"
-    },
-    "Thresh": {
-        "id": "Thresh",
-        "name": "쓰레쉬",
-        "title": "지옥의 간수",
-        "image": "Thresh.png"
-    },
-    "Tristana": {
-        "id": "Tristana",
-        "name": "트리스타나",
-        "title": "요들 사수",
-        "image": "Tristana.png"
-    },
-    "Trundle": {
-        "id": "Trundle",
-        "name": "트런들",
-        "title": "트롤 왕",
-        "image": "Trundle.png"
-    },
-    "Tryndamere": {
-        "id": "Tryndamere",
-        "name": "트린다미어",
-        "title": "야만전사 왕",
-        "image": "Tryndamere.png"
-    },
-    "TwistedFate": {
-        "id": "TwistedFate",
-        "name": "트위스티드 페이트",
-        "title": "카드의 달인",
-        "image": "TwistedFate.png"
-    },
-    "Twitch": {
-        "id": "Twitch",
-        "name": "트위치",
-        "title": "역병 쥐",
-        "image": "Twitch.png"
-    },
-    "Udyr": {
-        "id": "Udyr",
-        "name": "우디르",
-        "title": "정령 주술사",
-        "image": "Udyr.png"
-    },
-    "Urgot": {
-        "id": "Urgot",
-        "name": "우르곳",
-        "title": "살상 병기",
-        "image": "Urgot.png"
-    },
-    "Varus": {
-        "id": "Varus",
-        "name": "바루스",
-        "title": "응징의 화살",
-        "image": "Varus.png"
-    },
-    "Vayne": {
-        "id": "Vayne",
-        "name": "베인",
-        "title": "어둠 사냥꾼",
-        "image": "Vayne.png"
-    },
-    "Veigar": {
-        "id": "Veigar",
-        "name": "베이가",
-        "title": "악의 작은 지배자",
-        "image": "Veigar.png"
-    },
-    "Velkoz": {
-        "id": "Velkoz",
-        "name": "벨코즈",
-        "title": "공허의 눈",
-        "image": "Velkoz.png"
-    },
-    "Vex": {
-        "id": "Vex",
-        "name": "벡스",
-        "title": "우울주의자",
-        "image": "Vex.png"
-    },
-    "Vi": {
-        "id": "Vi",
-        "name": "바이",
-        "title": "필트오버의 집행자",
-        "image": "Vi.png"
-    },
-    "Viego": {
-        "id": "Viego",
-        "name": "비에고",
-        "title": "몰락한 왕",
-        "image": "Viego.png"
-    },
-    "Viktor": {
-        "id": "Viktor",
-        "name": "빅토르",
-        "title": "기계화의 전령관",
-        "image": "Viktor.png"
-    },
-    "Vladimir": {
-        "id": "Vladimir",
-        "name": "블라디미르",
-        "title": "진홍빛 사신",
-        "image": "Vladimir.png"
-    },
-    "Volibear": {
-        "id": "Volibear",
-        "name": "볼리베어",
-        "title": "무자비한 폭풍",
-        "image": "Volibear.png"
-    },
-    "Warwick": {
-        "id": "Warwick",
-        "name": "워윅",
-        "title": "자운의 고삐 풀린 분노",
-        "image": "Warwick.png"
-    },
-    "Xayah": {
-        "id": "Xayah",
-        "name": "자야",
-        "title": "저항하는 자",
-        "image": "Xayah.png"
-    },
-    "Xerath": {
-        "id": "Xerath",
-        "name": "제라스",
-        "title": "초월한 마법사",
-        "image": "Xerath.png"
-    },
-    "XinZhao": {
-        "id": "XinZhao",
-        "name": "신 짜오",
-        "title": "데마시아의 호위무사",
-        "image": "XinZhao.png"
-    },
-    "Yasuo": {
-        "id": "Yasuo",
-        "name": "야스오",
-        "title": "용서받지 못한 자",
-        "image": "Yasuo.png"
-    },
-    "Yone": {
-        "id": "Yone",
-        "name": "요네",
-        "title": "잊히지 못한 자",
-        "image": "Yone.png"
-    },
-    "Yorick": {
-        "id": "Yorick",
-        "name": "요릭",
-        "title": "영혼의 길잡이",
-        "image": "Yorick.png"
-    },
-    "Yuumi": {
-        "id": "Yuumi",
-        "name": "유미",
-        "title": "마법 고양이",
-        "image": "Yuumi.png"
-    },
-    "Zac": {
-        "id": "Zac",
-        "name": "자크",
-        "title": "비밀 병기",
-        "image": "Zac.png"
-    },
-    "Zed": {
-        "id": "Zed",
-        "name": "제드",
-        "title": "그림자의 주인",
-        "image": "Zed.png"
-    },
-    "Zeri": {
-        "id": "Zeri",
-        "name": "제리",
-        "title": "자운의 불꽃",
-        "image": "Zeri.png"
-    },
-    "Ziggs": {
-        "id": "Ziggs",
-        "name": "직스",
-        "title": "마법공학 폭파병",
-        "image": "Ziggs.png"
-    },
-    "Zilean": {
-        "id": "Zilean",
-        "name": "질리언",
-        "title": "시간의 수호자",
-        "image": "Zilean.png"
-    },
-    "Zoe": {
-        "id": "Zoe",
-        "name": "조이",
-        "title": "여명의 성위",
-        "image": "Zoe.png"
-    },
-    "Zyra": {
-        "id": "Zyra",
-        "name": "자이라",
-        "title": "가시 덩굴의 복수",
-        "image": "Zyra.png"
-    }
+  "Aatrox": {
+    "id": "Aatrox",
+    "name": "아트록스",
+    "title": "다르킨의 검",
+    "image": "Aatrox.png"
+  },
+  "Ahri": {
+    "id": "Ahri",
+    "name": "아리",
+    "title": "구미호",
+    "image": "Ahri.png"
+  },
+  "Akali": {
+    "id": "Akali",
+    "name": "아칼리",
+    "title": "섬기는 이 없는 암살자",
+    "image": "Akali.png"
+  },
+  "Akshan": {
+    "id": "Akshan",
+    "name": "아크샨",
+    "title": "떠도는 감시자",
+    "image": "Akshan.png"
+  },
+  "Alistar": {
+    "id": "Alistar",
+    "name": "알리스타",
+    "title": "미노타우로스",
+    "image": "Alistar.png"
+  },
+  "Amumu": {
+    "id": "Amumu",
+    "name": "아무무",
+    "title": "슬픈 미라",
+    "image": "Amumu.png"
+  },
+  "Anivia": {
+    "id": "Anivia",
+    "name": "애니비아",
+    "title": "얼음불사조",
+    "image": "Anivia.png"
+  },
+  "Annie": {
+    "id": "Annie",
+    "name": "애니",
+    "title": "어둠의 아이",
+    "image": "Annie.png"
+  },
+  "Aphelios": {
+    "id": "Aphelios",
+    "name": "아펠리오스",
+    "title": "신념의 무기",
+    "image": "Aphelios.png"
+  },
+  "Ashe": {
+    "id": "Ashe",
+    "name": "애쉬",
+    "title": "서리 궁수",
+    "image": "Ashe.png"
+  },
+  "AurelionSol": {
+    "id": "AurelionSol",
+    "name": "아우렐리온 솔",
+    "title": "별의 창조자",
+    "image": "AurelionSol.png"
+  },
+  "Azir": {
+    "id": "Azir",
+    "name": "아지르",
+    "title": "사막의 황제",
+    "image": "Azir.png"
+  },
+  "Bard": {
+    "id": "Bard",
+    "name": "바드",
+    "title": "영겁의 수호자",
+    "image": "Bard.png"
+  },
+  "Belveth": {
+    "id": "Belveth",
+    "name": "벨베스",
+    "title": "공허의 여제",
+    "image": "Belveth.png"
+  },
+  "Blitzcrank": {
+    "id": "Blitzcrank",
+    "name": "블리츠크랭크",
+    "title": "거대 증기 골렘",
+    "image": "Blitzcrank.png"
+  },
+  "Brand": {
+    "id": "Brand",
+    "name": "브랜드",
+    "title": "타오르는 복수",
+    "image": "Brand.png"
+  },
+  "Braum": {
+    "id": "Braum",
+    "name": "브라움",
+    "title": "프렐요드의 심장",
+    "image": "Braum.png"
+  },
+  "Caitlyn": {
+    "id": "Caitlyn",
+    "name": "케이틀린",
+    "title": "필트오버의 보안관",
+    "image": "Caitlyn.png"
+  },
+  "Camille": {
+    "id": "Camille",
+    "name": "카밀",
+    "title": "강철의 그림자",
+    "image": "Camille.png"
+  },
+  "Cassiopeia": {
+    "id": "Cassiopeia",
+    "name": "카시오페아",
+    "title": "독사의 포옹",
+    "image": "Cassiopeia.png"
+  },
+  "Chogath": {
+    "id": "Chogath",
+    "name": "초가스",
+    "title": "공허의 공포",
+    "image": "Chogath.png"
+  },
+  "Corki": {
+    "id": "Corki",
+    "name": "코르키",
+    "title": "대담한 폭격수",
+    "image": "Corki.png"
+  },
+  "Darius": {
+    "id": "Darius",
+    "name": "다리우스",
+    "title": "녹서스의 실력자",
+    "image": "Darius.png"
+  },
+  "Diana": {
+    "id": "Diana",
+    "name": "다이애나",
+    "title": "차가운 달의 분노",
+    "image": "Diana.png"
+  },
+  "Draven": {
+    "id": "Draven",
+    "name": "드레이븐",
+    "title": "화려한 처형자",
+    "image": "Draven.png"
+  },
+  "DrMundo": {
+    "id": "DrMundo",
+    "name": "문도 박사",
+    "title": "자운의 광인",
+    "image": "DrMundo.png"
+  },
+  "Ekko": {
+    "id": "Ekko",
+    "name": "에코",
+    "title": "시간을 달리는 소년",
+    "image": "Ekko.png"
+  },
+  "Elise": {
+    "id": "Elise",
+    "name": "엘리스",
+    "title": "거미 여왕",
+    "image": "Elise.png"
+  },
+  "Evelynn": {
+    "id": "Evelynn",
+    "name": "이블린",
+    "title": "고통스런 포옹",
+    "image": "Evelynn.png"
+  },
+  "Ezreal": {
+    "id": "Ezreal",
+    "name": "이즈리얼",
+    "title": "무모한 탐험가",
+    "image": "Ezreal.png"
+  },
+  "Fiddlesticks": {
+    "id": "Fiddlesticks",
+    "name": "피들스틱",
+    "title": "오래된 공포",
+    "image": "Fiddlesticks.png"
+  },
+  "Fiora": {
+    "id": "Fiora",
+    "name": "피오라",
+    "title": "결투의 대가",
+    "image": "Fiora.png"
+  },
+  "Fizz": {
+    "id": "Fizz",
+    "name": "피즈",
+    "title": "대양의 말썽꾸러기",
+    "image": "Fizz.png"
+  },
+  "Galio": {
+    "id": "Galio",
+    "name": "갈리오",
+    "title": "위대한 석상",
+    "image": "Galio.png"
+  },
+  "Gangplank": {
+    "id": "Gangplank",
+    "name": "갱플랭크",
+    "title": "바다의 무법자",
+    "image": "Gangplank.png"
+  },
+  "Garen": {
+    "id": "Garen",
+    "name": "가렌",
+    "title": "데마시아의 힘",
+    "image": "Garen.png"
+  },
+  "Gnar": {
+    "id": "Gnar",
+    "name": "나르",
+    "title": "잃어버린 고리",
+    "image": "Gnar.png"
+  },
+  "Gragas": {
+    "id": "Gragas",
+    "name": "그라가스",
+    "title": "술취한 난동꾼",
+    "image": "Gragas.png"
+  },
+  "Graves": {
+    "id": "Graves",
+    "name": "그레이브즈",
+    "title": "무법자",
+    "image": "Graves.png"
+  },
+  "Gwen": {
+    "id": "Gwen",
+    "name": "그웬",
+    "title": "신성한 재봉사",
+    "image": "Gwen.png"
+  },
+  "Hecarim": {
+    "id": "Hecarim",
+    "name": "헤카림",
+    "title": "전쟁의 전조",
+    "image": "Hecarim.png"
+  },
+  "Heimerdinger": {
+    "id": "Heimerdinger",
+    "name": "하이머딩거",
+    "title": "위대한 발명가",
+    "image": "Heimerdinger.png"
+  },
+  "Illaoi": {
+    "id": "Illaoi",
+    "name": "일라오이",
+    "title": "크라켄의 여사제",
+    "image": "Illaoi.png"
+  },
+  "Irelia": {
+    "id": "Irelia",
+    "name": "이렐리아",
+    "title": "칼날 무희",
+    "image": "Irelia.png"
+  },
+  "Ivern": {
+    "id": "Ivern",
+    "name": "아이번",
+    "title": "자연의 아버지",
+    "image": "Ivern.png"
+  },
+  "Janna": {
+    "id": "Janna",
+    "name": "잔나",
+    "title": "폭풍의 분노",
+    "image": "Janna.png"
+  },
+  "JarvanIV": {
+    "id": "JarvanIV",
+    "name": "자르반 4세",
+    "title": "데마시아의 귀감",
+    "image": "JarvanIV.png"
+  },
+  "Jax": {
+    "id": "Jax",
+    "name": "잭스",
+    "title": "무기의 달인",
+    "image": "Jax.png"
+  },
+  "Jayce": {
+    "id": "Jayce",
+    "name": "제이스",
+    "title": "미래의 수호자",
+    "image": "Jayce.png"
+  },
+  "Jhin": {
+    "id": "Jhin",
+    "name": "진",
+    "title": "잔혹극의 거장",
+    "image": "Jhin.png"
+  },
+  "Jinx": {
+    "id": "Jinx",
+    "name": "징크스",
+    "title": "난폭한 말괄량이",
+    "image": "Jinx.png"
+  },
+  "Kaisa": {
+    "id": "Kaisa",
+    "name": "카이사",
+    "title": "공허의 딸",
+    "image": "Kaisa.png"
+  },
+  "Kalista": {
+    "id": "Kalista",
+    "name": "칼리스타",
+    "title": "복수의 화신",
+    "image": "Kalista.png"
+  },
+  "Karma": {
+    "id": "Karma",
+    "name": "카르마",
+    "title": "깨우친 자",
+    "image": "Karma.png"
+  },
+  "Karthus": {
+    "id": "Karthus",
+    "name": "카서스",
+    "title": "죽음을 노래하는 자",
+    "image": "Karthus.png"
+  },
+  "Kassadin": {
+    "id": "Kassadin",
+    "name": "카사딘",
+    "title": "공허의 방랑자",
+    "image": "Kassadin.png"
+  },
+  "Katarina": {
+    "id": "Katarina",
+    "name": "카타리나",
+    "title": "사악한 칼날",
+    "image": "Katarina.png"
+  },
+  "Kayle": {
+    "id": "Kayle",
+    "name": "케일",
+    "title": "정의로운 자",
+    "image": "Kayle.png"
+  },
+  "Kayn": {
+    "id": "Kayn",
+    "name": "케인",
+    "title": "그림자 사신",
+    "image": "Kayn.png"
+  },
+  "Kennen": {
+    "id": "Kennen",
+    "name": "케넨",
+    "title": "폭풍의 심장",
+    "image": "Kennen.png"
+  },
+  "Khazix": {
+    "id": "Khazix",
+    "name": "카직스",
+    "title": "공허의 약탈자",
+    "image": "Khazix.png"
+  },
+  "Kindred": {
+    "id": "Kindred",
+    "name": "킨드레드",
+    "title": "영겁의 사냥꾼",
+    "image": "Kindred.png"
+  },
+  "Kled": {
+    "id": "Kled",
+    "name": "클레드",
+    "title": "망나니 기사",
+    "image": "Kled.png"
+  },
+  "KogMaw": {
+    "id": "KogMaw",
+    "name": "코그모",
+    "title": "심연의 아귀",
+    "image": "KogMaw.png"
+  },
+  "KSante": {
+    "id": "KSante",
+    "name": "크산테",
+    "title": "나주마의 긍지",
+    "image": "KSante.png"
+  },
+  "Leblanc": {
+    "id": "Leblanc",
+    "name": "르블랑",
+    "title": "환술사",
+    "image": "Leblanc.png"
+  },
+  "LeeSin": {
+    "id": "LeeSin",
+    "name": "리 신",
+    "title": "눈먼 수도승",
+    "image": "LeeSin.png"
+  },
+  "Leona": {
+    "id": "Leona",
+    "name": "레오나",
+    "title": "여명의 빛",
+    "image": "Leona.png"
+  },
+  "Lillia": {
+    "id": "Lillia",
+    "name": "릴리아",
+    "title": "수줍은 꽃",
+    "image": "Lillia.png"
+  },
+  "Lissandra": {
+    "id": "Lissandra",
+    "name": "리산드라",
+    "title": "얼음 마녀",
+    "image": "Lissandra.png"
+  },
+  "Lucian": {
+    "id": "Lucian",
+    "name": "루시안",
+    "title": "정화의 사도",
+    "image": "Lucian.png"
+  },
+  "Lulu": {
+    "id": "Lulu",
+    "name": "룰루",
+    "title": "요정 마법사",
+    "image": "Lulu.png"
+  },
+  "Lux": {
+    "id": "Lux",
+    "name": "럭스",
+    "title": "광명의 소녀",
+    "image": "Lux.png"
+  },
+  "Malphite": {
+    "id": "Malphite",
+    "name": "말파이트",
+    "title": "거석의 파편",
+    "image": "Malphite.png"
+  },
+  "Malzahar": {
+    "id": "Malzahar",
+    "name": "말자하",
+    "title": "공허의 예언자",
+    "image": "Malzahar.png"
+  },
+  "Maokai": {
+    "id": "Maokai",
+    "name": "마오카이",
+    "title": "뒤틀린 나무 정령",
+    "image": "Maokai.png"
+  },
+  "MasterYi": {
+    "id": "MasterYi",
+    "name": "마스터 이",
+    "title": "우주 검사",
+    "image": "MasterYi.png"
+  },
+  "Milio": {
+    "id": "Milio",
+    "name": "밀리오",
+    "title": "온화한 불꽃",
+    "image": "Milio.png"
+  },
+  "MissFortune": {
+    "id": "MissFortune",
+    "name": "미스 포츈",
+    "title": "현상금 사냥꾼",
+    "image": "MissFortune.png"
+  },
+  "MonkeyKing": {
+    "id": "MonkeyKing",
+    "name": "오공",
+    "title": "원숭이 왕",
+    "image": "MonkeyKing.png"
+  },
+  "Mordekaiser": {
+    "id": "Mordekaiser",
+    "name": "모데카이저",
+    "title": "강철의 망령",
+    "image": "Mordekaiser.png"
+  },
+  "Morgana": {
+    "id": "Morgana",
+    "name": "모르가나",
+    "title": "타락한 자",
+    "image": "Morgana.png"
+  },
+  "Nami": {
+    "id": "Nami",
+    "name": "나미",
+    "title": "파도 소환사",
+    "image": "Nami.png"
+  },
+  "Nasus": {
+    "id": "Nasus",
+    "name": "나서스",
+    "title": "사막의 관리자",
+    "image": "Nasus.png"
+  },
+  "Nautilus": {
+    "id": "Nautilus",
+    "name": "노틸러스",
+    "title": "심해의 타이탄",
+    "image": "Nautilus.png"
+  },
+  "Neeko": {
+    "id": "Neeko",
+    "name": "니코",
+    "title": "알쏭달쏭 카멜레온",
+    "image": "Neeko.png"
+  },
+  "Nidalee": {
+    "id": "Nidalee",
+    "name": "니달리",
+    "title": "야성의 사냥꾼",
+    "image": "Nidalee.png"
+  },
+  "Nilah": {
+    "id": "Nilah",
+    "name": "닐라",
+    "title": "해방된 기쁨",
+    "image": "Nilah.png"
+  },
+  "Nocturne": {
+    "id": "Nocturne",
+    "name": "녹턴",
+    "title": "영원한 악몽",
+    "image": "Nocturne.png"
+  },
+  "Nunu": {
+    "id": "Nunu",
+    "name": "누누와 윌럼프",
+    "title": "소년과 설인",
+    "image": "Nunu.png"
+  },
+  "Olaf": {
+    "id": "Olaf",
+    "name": "올라프",
+    "title": "광전사",
+    "image": "Olaf.png"
+  },
+  "Orianna": {
+    "id": "Orianna",
+    "name": "오리아나",
+    "title": "시계태엽 소녀",
+    "image": "Orianna.png"
+  },
+  "Ornn": {
+    "id": "Ornn",
+    "name": "오른",
+    "title": "거산의 화염",
+    "image": "Ornn.png"
+  },
+  "Pantheon": {
+    "id": "Pantheon",
+    "name": "판테온",
+    "title": "불굴의 창",
+    "image": "Pantheon.png"
+  },
+  "Poppy": {
+    "id": "Poppy",
+    "name": "뽀삐",
+    "title": "망치의 수호자",
+    "image": "Poppy.png"
+  },
+  "Pyke": {
+    "id": "Pyke",
+    "name": "파이크",
+    "title": "핏빛 항구의 학살자",
+    "image": "Pyke.png"
+  },
+  "Qiyana": {
+    "id": "Qiyana",
+    "name": "키아나",
+    "title": "원소의 여왕",
+    "image": "Qiyana.png"
+  },
+  "Quinn": {
+    "id": "Quinn",
+    "name": "퀸",
+    "title": "데마시아의 날개",
+    "image": "Quinn.png"
+  },
+  "Rakan": {
+    "id": "Rakan",
+    "name": "라칸",
+    "title": "매혹하는 자",
+    "image": "Rakan.png"
+  },
+  "Rammus": {
+    "id": "Rammus",
+    "name": "람머스",
+    "title": "중무장 아르마딜로",
+    "image": "Rammus.png"
+  },
+  "RekSai": {
+    "id": "RekSai",
+    "name": "렉사이",
+    "title": "공허의 복병",
+    "image": "RekSai.png"
+  },
+  "Rell": {
+    "id": "Rell",
+    "name": "렐",
+    "title": "철의 여인",
+    "image": "Rell.png"
+  },
+  "Renata": {
+    "id": "Renata",
+    "name": "레나타 글라스크",
+    "title": "화공 남작",
+    "image": "Renata.png"
+  },
+  "Renekton": {
+    "id": "Renekton",
+    "name": "레넥톤",
+    "title": "사막의 도살자",
+    "image": "Renekton.png"
+  },
+  "Rengar": {
+    "id": "Rengar",
+    "name": "렝가",
+    "title": "추적하는 사자",
+    "image": "Rengar.png"
+  },
+  "Riven": {
+    "id": "Riven",
+    "name": "리븐",
+    "title": "추방자",
+    "image": "Riven.png"
+  },
+  "Rumble": {
+    "id": "Rumble",
+    "name": "럼블",
+    "title": "기계 악동",
+    "image": "Rumble.png"
+  },
+  "Ryze": {
+    "id": "Ryze",
+    "name": "라이즈",
+    "title": "룬 마법사",
+    "image": "Ryze.png"
+  },
+  "Samira": {
+    "id": "Samira",
+    "name": "사미라",
+    "title": "사막의 장미",
+    "image": "Samira.png"
+  },
+  "Sejuani": {
+    "id": "Sejuani",
+    "name": "세주아니",
+    "title": "혹한의 분노",
+    "image": "Sejuani.png"
+  },
+  "Senna": {
+    "id": "Senna",
+    "name": "세나",
+    "title": "구원자",
+    "image": "Senna.png"
+  },
+  "Seraphine": {
+    "id": "Seraphine",
+    "name": "세라핀",
+    "title": "노래하는 별",
+    "image": "Seraphine.png"
+  },
+  "Sett": {
+    "id": "Sett",
+    "name": "세트",
+    "title": "우두머리",
+    "image": "Sett.png"
+  },
+  "Shaco": {
+    "id": "Shaco",
+    "name": "샤코",
+    "title": "악마 어릿광대",
+    "image": "Shaco.png"
+  },
+  "Shen": {
+    "id": "Shen",
+    "name": "쉔",
+    "title": "황혼의 눈",
+    "image": "Shen.png"
+  },
+  "Shyvana": {
+    "id": "Shyvana",
+    "name": "쉬바나",
+    "title": "하프 드래곤",
+    "image": "Shyvana.png"
+  },
+  "Singed": {
+    "id": "Singed",
+    "name": "신지드",
+    "title": "미친 화학자",
+    "image": "Singed.png"
+  },
+  "Sion": {
+    "id": "Sion",
+    "name": "사이온",
+    "title": "언데드 학살병기",
+    "image": "Sion.png"
+  },
+  "Sivir": {
+    "id": "Sivir",
+    "name": "시비르",
+    "title": "전장의 여제",
+    "image": "Sivir.png"
+  },
+  "Skarner": {
+    "id": "Skarner",
+    "name": "스카너",
+    "title": "수정 선봉장",
+    "image": "Skarner.png"
+  },
+  "Sona": {
+    "id": "Sona",
+    "name": "소나",
+    "title": "현의 명인",
+    "image": "Sona.png"
+  },
+  "Soraka": {
+    "id": "Soraka",
+    "name": "소라카",
+    "title": "별의 아이",
+    "image": "Soraka.png"
+  },
+  "Swain": {
+    "id": "Swain",
+    "name": "스웨인",
+    "title": "녹서스 대장군",
+    "image": "Swain.png"
+  },
+  "Sylas": {
+    "id": "Sylas",
+    "name": "사일러스",
+    "title": "해방된 자",
+    "image": "Sylas.png"
+  },
+  "Syndra": {
+    "id": "Syndra",
+    "name": "신드라",
+    "title": "어둠의 여제",
+    "image": "Syndra.png"
+  },
+  "TahmKench": {
+    "id": "TahmKench",
+    "name": "탐 켄치",
+    "title": "강의 폭군",
+    "image": "TahmKench.png"
+  },
+  "Taliyah": {
+    "id": "Taliyah",
+    "name": "탈리야",
+    "title": "바위술사",
+    "image": "Taliyah.png"
+  },
+  "Talon": {
+    "id": "Talon",
+    "name": "탈론",
+    "title": "검의 그림자",
+    "image": "Talon.png"
+  },
+  "Taric": {
+    "id": "Taric",
+    "name": "타릭",
+    "title": "발로란의 방패",
+    "image": "Taric.png"
+  },
+  "Teemo": {
+    "id": "Teemo",
+    "name": "티모",
+    "title": "날쌘 정찰병",
+    "image": "Teemo.png"
+  },
+  "Thresh": {
+    "id": "Thresh",
+    "name": "쓰레쉬",
+    "title": "지옥의 간수",
+    "image": "Thresh.png"
+  },
+  "Tristana": {
+    "id": "Tristana",
+    "name": "트리스타나",
+    "title": "요들 사수",
+    "image": "Tristana.png"
+  },
+  "Trundle": {
+    "id": "Trundle",
+    "name": "트런들",
+    "title": "트롤 왕",
+    "image": "Trundle.png"
+  },
+  "Tryndamere": {
+    "id": "Tryndamere",
+    "name": "트린다미어",
+    "title": "야만전사 왕",
+    "image": "Tryndamere.png"
+  },
+  "TwistedFate": {
+    "id": "TwistedFate",
+    "name": "트위스티드 페이트",
+    "title": "카드의 달인",
+    "image": "TwistedFate.png"
+  },
+  "Twitch": {
+    "id": "Twitch",
+    "name": "트위치",
+    "title": "역병 쥐",
+    "image": "Twitch.png"
+  },
+  "Udyr": {
+    "id": "Udyr",
+    "name": "우디르",
+    "title": "정령 주술사",
+    "image": "Udyr.png"
+  },
+  "Urgot": {
+    "id": "Urgot",
+    "name": "우르곳",
+    "title": "살상 병기",
+    "image": "Urgot.png"
+  },
+  "Varus": {
+    "id": "Varus",
+    "name": "바루스",
+    "title": "응징의 화살",
+    "image": "Varus.png"
+  },
+  "Vayne": {
+    "id": "Vayne",
+    "name": "베인",
+    "title": "어둠 사냥꾼",
+    "image": "Vayne.png"
+  },
+  "Veigar": {
+    "id": "Veigar",
+    "name": "베이가",
+    "title": "악의 작은 지배자",
+    "image": "Veigar.png"
+  },
+  "Velkoz": {
+    "id": "Velkoz",
+    "name": "벨코즈",
+    "title": "공허의 눈",
+    "image": "Velkoz.png"
+  },
+  "Vex": {
+    "id": "Vex",
+    "name": "벡스",
+    "title": "우울주의자",
+    "image": "Vex.png"
+  },
+  "Vi": {
+    "id": "Vi",
+    "name": "바이",
+    "title": "필트오버의 집행자",
+    "image": "Vi.png"
+  },
+  "Viego": {
+    "id": "Viego",
+    "name": "비에고",
+    "title": "몰락한 왕",
+    "image": "Viego.png"
+  },
+  "Viktor": {
+    "id": "Viktor",
+    "name": "빅토르",
+    "title": "기계화의 전령관",
+    "image": "Viktor.png"
+  },
+  "Vladimir": {
+    "id": "Vladimir",
+    "name": "블라디미르",
+    "title": "진홍빛 사신",
+    "image": "Vladimir.png"
+  },
+  "Volibear": {
+    "id": "Volibear",
+    "name": "볼리베어",
+    "title": "무자비한 폭풍",
+    "image": "Volibear.png"
+  },
+  "Warwick": {
+    "id": "Warwick",
+    "name": "워윅",
+    "title": "자운의 고삐 풀린 분노",
+    "image": "Warwick.png"
+  },
+  "Xayah": {
+    "id": "Xayah",
+    "name": "자야",
+    "title": "저항하는 자",
+    "image": "Xayah.png"
+  },
+  "Xerath": {
+    "id": "Xerath",
+    "name": "제라스",
+    "title": "초월한 마법사",
+    "image": "Xerath.png"
+  },
+  "XinZhao": {
+    "id": "XinZhao",
+    "name": "신 짜오",
+    "title": "데마시아의 호위무사",
+    "image": "XinZhao.png"
+  },
+  "Yasuo": {
+    "id": "Yasuo",
+    "name": "야스오",
+    "title": "용서받지 못한 자",
+    "image": "Yasuo.png"
+  },
+  "Yone": {
+    "id": "Yone",
+    "name": "요네",
+    "title": "잊히지 못한 자",
+    "image": "Yone.png"
+  },
+  "Yorick": {
+    "id": "Yorick",
+    "name": "요릭",
+    "title": "영혼의 길잡이",
+    "image": "Yorick.png"
+  },
+  "Yuumi": {
+    "id": "Yuumi",
+    "name": "유미",
+    "title": "마법 고양이",
+    "image": "Yuumi.png"
+  },
+  "Zac": {
+    "id": "Zac",
+    "name": "자크",
+    "title": "비밀 병기",
+    "image": "Zac.png"
+  },
+  "Zed": {
+    "id": "Zed",
+    "name": "제드",
+    "title": "그림자의 주인",
+    "image": "Zed.png"
+  },
+  "Zeri": {
+    "id": "Zeri",
+    "name": "제리",
+    "title": "자운의 불꽃",
+    "image": "Zeri.png"
+  },
+  "Ziggs": {
+    "id": "Ziggs",
+    "name": "직스",
+    "title": "마법공학 폭파병",
+    "image": "Ziggs.png"
+  },
+  "Zilean": {
+    "id": "Zilean",
+    "name": "질리언",
+    "title": "시간의 수호자",
+    "image": "Zilean.png"
+  },
+  "Zoe": {
+    "id": "Zoe",
+    "name": "조이",
+    "title": "여명의 성위",
+    "image": "Zoe.png"
+  },
+  "Zyra": {
+    "id": "Zyra",
+    "name": "자이라",
+    "title": "가시 덩굴의 복수",
+    "image": "Zyra.png"
+  }
 }
