@@ -1,7 +1,9 @@
 const { keywordQueries } = require('./data/keywordQueries')
 const { crawling } = require('./utils/crawling')
 const { makeDirectory } = require('./utils/func')
-const champions = require('./data/champions.json')
+
+// 알파벳 순서로 적용하기 위해 en url과 en을 가진 json으로 사용
+const champions = require('./data/champions_en.json')
 const championsArr = Object.keys(champions)
 
 const fs = {
