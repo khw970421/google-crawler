@@ -9,7 +9,7 @@ var download = function (urls, targetFolder, imgNm, callback) {
         request(url)
           .pipe(
             fs.createWriteStream(
-              `./${targetFolder}/${getFileImageNm(imgNm, idx)}.jpg`
+              `./${targetFolder}/${getFileImageNm(imgNm, idx)}.png`
             )
           )
           .on('close', callback)
