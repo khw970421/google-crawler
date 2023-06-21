@@ -1,10 +1,14 @@
-const { keywordQueries } = require('./data/keywordQueries')
 const { crawling } = require('./utils/crawling')
 const { makeDirectory } = require('./utils/func')
 
-// 알파벳 순서로 적용하기 위해 en url과 en을 가진 json으로 사용
-const champions = require('./data/champions_en.json')
-const championsArr = Object.keys(champions)
+// en의 경우 K'SANTE가 id로는 Ksante로 KAI'SA인 Kaisa보다 사진에서 우선되기에
+// 한국 기준으로 한국어 정렬 후 ko에서 크롤링 진행
+
+const champions = require('./data/champions_ko.json')
+// 이름으로 오름차순 정렬 후 영어로 된 id를 반환
+const championsArr = Object.values(champions)
+  .sort((a, b) => (a.name < b.name ? -1 : 1))
+  .map((champion) => champion.id)
 
 const fs = {
   dir: 'img',
@@ -12,7 +16,7 @@ const fs = {
 }
 
 const search = {
-  url: `https://www.leagueoflegends.com/en-us/champions/`,
+  url: `https://www.leagueoflegends.com/ko-kr/champions/`,
   css: `.style__ImageContainer-n3ovyt-1 .cipsic`,
 }
 
