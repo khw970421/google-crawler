@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lol-json":"node getChampionsJson.js",
+    "lol-json": "node getChampionsJson.js",
     "lol-crawl": "node lolCrawl.js"
   },
   "author": "",
@@ -16,5 +16,8 @@
     "https": "^1.0.0",
     "request": "^2.88.2",
     "selenium-webdriver": "^4.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
   }
 }
