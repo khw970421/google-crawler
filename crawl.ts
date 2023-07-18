@@ -1,5 +1,9 @@
-const { crawling } = require('./utils/crawling')
-const { makeDirectory } = require('./utils/func')
+import { crawling } from './utils/crawling'
+import { makeDirectory } from './utils/func'
+import champions_en from './data/champions_en.json'
+import champions_ko from './data/champions_ko.json'
+import { CrawlSearch } from './utils/types'
+
 
 const searchLength = 8
 const argsIdx = Number(process.argv[2]) * searchLength
@@ -7,8 +11,7 @@ const argsIdx = Number(process.argv[2]) * searchLength
 const directory = 'img'
 makeDirectory(`${directory}`, false)
 
-const champions_en = require('./data/champions_en.json')
-const champions_ko = require('./data/champions_ko.json')
+
 const championsEnNms = Object.keys(champions_en)
 const championsKoNms = Object.values(champions_ko).map(
   ({ name }) => `롤 ${name}`
@@ -25,9 +28,10 @@ searchChampions.forEach((EnNm, idx) => {
     fileNm: `${directory}`,
   }
 
-  const search = {
+  const search: CrawlSearch = {
     url: `https://www.google.com/search?q=${championsKoNm}&tbm=isch`,
-    css: `.rg_i`,
+    target: 'css',
+    targetData: `.rg_i`,
   }
 
   crawling(fs, search)

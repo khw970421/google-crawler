@@ -1,21 +1,21 @@
-const fs = require('fs')
-const axios = require('axios')
+import fs from 'fs'
+import axios from 'axios'
+import { RawChampions, Champions } from './utils/types/lol'
 
 const lol_url = 'https://ddragon.leagueoflegends.com/cdn/13.12.1/data/'
 const en = 'en_US/champion'
 const ko = 'ko_KR/champion'
 
-const getLOLChampions = async (lang) => {
+const getLOLChampions = async (lang: string) => {
   let result
   if (lang === 'ko') result = await axios.get(`${lol_url}${ko}.json`)
   else result = await axios.get(`${lol_url}${en}.json`)
   const filter = filtering(result.data.data)
-  console.log(filter)
   fs.writeFileSync(`./data/champions_${lang}.json`, JSON.stringify(filter))
 }
 
-const filtering = (objectData) => {
-  const obj = {}
+const filtering = (objectData: RawChampions) => {
+  const obj = {} as Champions
   Object.entries(objectData).forEach(([key, value]) => {
     const { id, name, title, image } = value
     obj[key] = {
