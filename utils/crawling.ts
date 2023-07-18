@@ -1,7 +1,8 @@
-const { Builder, Browser, By, until } = require('selenium-webdriver')
-const { download } = require('./download')
+import { Builder, Browser, By, until } from 'selenium-webdriver'
+import { download } from './download'
+import { CrawlFs, CrawlSearch } from './types/index'
 
-async function crawling(fs, search) {
+async function crawling(fs: CrawlFs, search: CrawlSearch) {
   const images = []
   const driver = await new Builder().forBrowser(Browser.CHROME).build()
 
@@ -18,7 +19,7 @@ async function crawling(fs, search) {
 
     await driver.wait(until.urlContains('http'), 100)
 
-    let resultElements = await driver.findElements(By.css(search.css))
+    let resultElements = await driver.findElements(By.css(search.targetData))
 
     for (var i = 0; i < resultElements.length; i++) {
       const image = await resultElements[i].getAttribute('src')
@@ -35,4 +36,4 @@ async function crawling(fs, search) {
   }
 }
 
-exports.crawling = crawling
+export { crawling }

@@ -1,8 +1,8 @@
-var fs = require('fs')
-var request = require('request')
-const { getFileImageNm } = require('./func')
+import fs from 'fs'
+import request from 'request'
+import { getFileImageNm } from './func'
 
-var download = function (urls, targetFolder, imgNm, callback) {
+var download = function (urls: string[], targetFolder: string, imgNm: string | string[], callback: () => void) {
   urls.forEach((url, idx) => {
     if (url.startsWith('https')) {
       request.head(url, function (err, res, body) {
@@ -39,4 +39,4 @@ var download = function (urls, targetFolder, imgNm, callback) {
   })
 }
 
-exports.download = download
+export { download }
