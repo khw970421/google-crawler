@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lol-json": "node getChampionsJson.js",
-    "lol-crawl": "node lolCrawl.js"
+    "lol-crawl": "node ./build/crawl.js"
   },
   "author": "",
   "license": "ISC",
