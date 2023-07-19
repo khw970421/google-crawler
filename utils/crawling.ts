@@ -19,7 +19,7 @@ async function crawling(fs: CrawlFs, search: CrawlSearch) {
 
     await driver.wait(until.urlContains('http'), 100)
 
-    let resultElements = await driver.findElements(By.css(search.targetData))
+    let resultElements = await driver.findElements(findCase(search))
 
     for (var i = 0; i < resultElements.length; i++) {
       const image = await resultElements[i].getAttribute('src')
@@ -34,6 +34,24 @@ async function crawling(fs: CrawlFs, search: CrawlSearch) {
   } finally {
     await driver.quit()
   }
+}
+
+const findCase = ({ target, targetData }: Pick<CrawlSearch, "target" | "targetData">) => {
+  let result
+  // @deprecated "By.tagName" Use {@link By.css() By.css(tagName)} instead.
+  switch (target) {
+    case 'css':
+      result = By.css(targetData)
+      break
+
+    case 'class':
+      result = By.className(targetData)
+      break
+    case 'id':
+      result = By.id(targetData)
+      break
+  }
+  return result
 }
 
 export { crawling }
