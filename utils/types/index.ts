@@ -1,4 +1,4 @@
-type CrawlSearchTarget = 'css' | 'class' | 'id' | 'tag'
+type CrawlSearchTarget = 'css' | 'class' | 'id'
 
 interface CrawlSearch {
   url: string,
@@ -11,4 +11,4 @@ interface CrawlFs {
   fileNm: string | string[]
 }
 
-export { CrawlSearch, CrawlFs }
+export { CrawlSearch, CrawlFs, CrawlSearchTarget }
